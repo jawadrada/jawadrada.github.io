@@ -8,7 +8,7 @@
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;   
-    background-color: #F5F5F5;
+    background-color: #1a1a1a;
   }
 
   .main-nav{    
@@ -16,24 +16,34 @@
     flex-direction: row;
     justify-content: space-between; 
     align-items: center; 
-    padding: 20px 20px;
-    border: 3px solid black;
+    padding: 15px;
+    border: 3px solid #333333;
+    background-color:  #333333;
   }
 
   .nav-links{
     display: flex;
     list-style: none;
-    padding: 0;
-
   }
   
   .name{
-    flex: 1;
+    font-size: 25px;
+    color: #eaeaea;
   }
 
   .nav-item{
-    margin-right: 200px;
+    margin-right: 250px;
+    font-size: 20px;
   }
+
+  a{
+    text-decoration: none;
+    color: #0073e6;
+  }
+
+  a:hover {
+    text-decoration: underline;
+}
 
   .flex-container{
     display: flex;
@@ -45,17 +55,25 @@
 
   .image-headShot{
     border-radius: 50%;
-    width: 375px;
-    height: 375px;
+    width: 475px;
+    height: 450px;
   }
 
   .personal-statement{
     width: 450px;
-    height: 350px;
+    height: 400px;
     padding: 15px;
     font-size:18px;    
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid #333333;
+    color: #eaeaea;
+  }
+
+  .project-label{
+    color: #eaeaea;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
   }
 
   .flex-container2{
@@ -63,7 +81,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 70px;
   }
 
   .flex-container3{
@@ -72,27 +90,43 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 80px;
+    color: #eaeaea;
+    margin-bottom: 80px;
+    text-align: center;
   }
 
   .image-chess{
-    width: 375px;
+    width: 575px;
     height: 375px;
   }
 
   .image-pokemon{
-    width: 375px;
+    width: 575px;
     height: 375px;
   }
 
+  .chess-statement{
+    border: 3px solid #333333;
+    width: 575px;
+    height: 225px;
+    padding:15px;
+  }
+
+  .pokemon-statement{
+    border: 3px solid #333333;
+    width: 575px;
+    height: 225px;
+    padding:15px;
+  }
+
   footer{
-    border: 3px solid black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 15px;
+    border: 3px solid #333333;
+    position: relative;
+    padding: 10px;
     text-align: center;
+    color: #eaeaea;
+    background-color: #333333;
+    font-size: 18px;
 }
 
 .copyRight a{
